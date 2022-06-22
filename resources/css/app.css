@@ -1,0 +1,26 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+/*============= css issue fix css start ============*/
+
+.max-w-7xl.mx-auto.sm\:px-6.lg\:px-8 {max-width: 95%;}
+.px-4.py-2{font-size: 16px;}
+.hidden.space-x-8.sm\:-my-px.sm\:ml-10.sm\:flex a {font-size: 16px;}
+.table-filter.py-4.space-y-4 .w-1\/4 {display: inline-block;}
+table th{text-align:left;}
+.bg-blue-500.text-white{font-size:14px;background: #2a99ae;}
+.bg-gray-500.hover\:bg-red-700.text-white.font-bold.py-2.px-4.rounded{background: #F44336;font-size:14px;}
+.flex.items-center.justify-between {margin-top: 15px;}
+.border.px-4.py-2{font-size:15px;} 
+ 
+.inline-flex.items-center.px-1.pt-1.border-b-2.border-indigo-400.text-sm.font-medium.leading-5.text-gray-900.focus\:outline-none.focus\:border-indigo-700.transition {border-bottom: 2px solid #2a99ae;}
+.inline-block.align-bottom.bg-white.rounded-lg.text-left.overflow-hidden.shadow-xl.transform.transition-all.sm\:my-8.sm\:align-middle.sm\:max-w-lg.sm\:w-full {max-width: 700px;width:700px!important; }
+.bg-white.px-4.pt-5.pb-4.sm\:p-6.sm\:pb-4 {width: 100% !important;overflow-x: auto !important;}
+.mt-3.flex.w-full.rounded-md.shadow-sm.sm\:mt-0.sm\:w-auto {border: 0;box-shadow: none;}
+.inline-flex.justify-center.w-full.rounded-md.border.border-gray-300.px-4.py-2.bg-white.text-base.leading-6.font-bold.text-gray-700.shadow-sm.hover\:text-gray-700.focus\:outline-none.focus\:border-blue-300.focus\:shadow-outline-blue.transition.ease-in-out.duration-150.sm\:text-sm.sm\:leading-5 {border: 0;background: none;box-shadow: none; font-size: 30px;}
+
+input{border-radius: 0.25rem !important;} 
+.bg-green-700.text-white.font-bold.py-2.px-4.rounded.my-3{background: #2a99ae;height:42px;margin:0;} 
+/*============= css issue fix css close ============*/
